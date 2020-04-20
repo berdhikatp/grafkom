@@ -34,3 +34,14 @@ context.fillRect(689,-257,160,41);
 //pegangan
 context.fillStyle = "blue";
 context.fillRect(755,-278,30,22);
+
+//gelas 3 linda
+//pegangan tutup gelas
+context.fillStyle = "blue";
+context.fillRect(565,180,30,50);
+//tutup gelas
+context.fillStyle = "lightblue";
+context.fillRect(500,200,160,50);
+//badan gelas
+context.fillStyle = "blue";
+context.fillRect(500,240,160,200);
