@@ -25,3 +25,12 @@ context.strokeRect(300,200,160,41);
 //badan gelas
 context.fillStyle = "blue";
 context.fillRect(300,240,160,200);
+
+//rotasi tutup gelas
+context.rotate ((Math.PI/180)*40);
+//tutup gelas
+context.fillStyle = "lightblue";
+context.fillRect(335,-149,160,41);
+//pegangan
+context.fillStyle = "blue";
+context.fillRect(395,-178,25,30);
