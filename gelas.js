@@ -35,7 +35,7 @@ context.fillRect(689,-257,160,41);
 context.fillStyle = "blue";
 context.fillRect(755,-278,30,22);
 
-//gelas 3 linda
+//gelas 3 linda ready
 //pegangan tutup gelas
 context.fillStyle = "blue";
 context.fillRect(565,180,30,50);
