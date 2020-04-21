@@ -9,19 +9,19 @@ context.font = 'bold 15pt comic';
 context.lineWidth = 3;
 context.fillStyle = 'black';
 context.textBaseline = 'middle';
-context.fillText('Gelas Tertutup', 235, 620);
+context.fillText('Gelas Tertutup', 235, 650);
 context.font = 'bold 30pt comic';
 context.fillStyle = 'black';
 context.fillText('Grafika Komputer', 550, 80);
 context.font = 'bold 20pt comic';
 context.fillStyle = 'black';
-context.fillText('Membuat Gelas Terbuka dan Tertutup', 480, 120);
+context.fillText('Membuat Gelas Terbuka dan Tertutup', 480, 130);
 context.font = 'bold 15pt comic';
 context.fillStyle = 'black';
-context.fillText('Gelas 1/2 Terbuka', 635, 620);
+context.fillText('Gelas 1/2 Terbuka', 635, 650);
 context.font = 'bold 15pt comic';
 context.fillStyle = 'black';
-context.fillText('Gelas Tertutup', 1055, 620);
+context.fillText('Gelas Terbuka', 1055, 650);
 
 
 //gelas 1 berdha
@@ -64,13 +64,13 @@ context.fillRect(755, -278, 30, 22);
 
 //rotate tutup gelas 3 berdha
 //pegangan tutup gelas
-context.fillStyle = "blue";
-context.fillRect(600,-300,30,20);
+context.fillStyle = "salmon";
+context.fillRect(1110, -551, 30, 20);
 //tutup gelas
-context.translate(300,-860);
-context.rotate ((Math.PI/180)*48);
-context.fillStyle = "lightblue";
-context.fillRect(541,150,160,50);
+context.translate(600, -860);
+context.rotate ((Math.PI / 180) * 48);
+context.fillStyle = "#FFB6C1";
+context.fillRect(509, -164, 160, 50);
 
 //lanjutan text
 
