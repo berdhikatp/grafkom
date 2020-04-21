@@ -15,7 +15,7 @@ context.fillStyle = 'black';
 context.fillText('Grafika Komputer', 550, 80);
 context.font = 'bold 20pt comic';
 context.fillStyle = 'black';
-context.fillText('Membuat Gelas Terbuka dan Tertutup', 480, 130);
+context.fillText('Membuat Gelas Tertutup, Setengah Terbuka dan Terbuka', 380, 130);
 context.font = 'bold 15pt comic';
 context.fillStyle = 'black';
 context.fillText('Gelas 1/2 Terbuka', 635, 650);
