@@ -53,24 +53,24 @@ context.strokeStyle = "#FFB6C1";
 context.strokeRect(630, 340, 160, 41);
 //badan gelas
 context.fillStyle = "salmon";
-context.fillRect(630, 382, 160, 200);
+context.fillRect(630, 380, 160, 200);
 context.strokeStyle = "black";
 context.lineWidth = 3;
-context.strokeRect(630, 382, 160, 200);
+context.strokeRect(630, 380, 160, 200);
 
 //gelas 3 
 //pegangan tutup gelas
 context.strokeStyle = "salmon";
-context.strokeRect(1100, 330, 30, 20);
+context.strokeRect(1100, 320, 30, 20);
 //tutup gelas
 context.strokeStyle = "#FFB6C1";
-context.strokeRect(1040, 350, 160, 41);
+context.strokeRect(1040, 340, 160, 41);
 //badan gelas
 context.fillStyle = "salmon";
-context.fillRect(1040, 390, 160, 210);
+context.fillRect(1040, 380, 160, 200);
 context.strokeStyle = "black";
 context.lineWidth = 3;
-context.strokeRect(1040, 390, 160, 210);
+context.strokeRect(1040, 380, 160, 200);
 
 //rotasi tutup gelas2
 context.rotate((Math.PI / 180) * 40);
@@ -92,16 +92,16 @@ context.strokeRect(755, -279, 30, 22);
 context.translate(600, -860);
 context.rotate((Math.PI / 180) * 50);
 context.fillStyle = "#FFB6C1";
-context.fillRect(503, -188, 160, 50);
+context.fillRect(493, -188, 160, 41);
 context.strokeStyle = "black";
 context.lineWidth = 3;
-context.strokeRect(503, -188, 160, 50);
+context.strokeRect(493, -188, 160, 41);
 //pegangan tutup gelas
 context.fillStyle = "salmon";
-context.fillRect(566, -210, 30, 22);
+context.fillRect(560, -210, 30, 22);
 context.strokeStyle = "black";
 context.lineWidth = 3;
-context.strokeRect(566, -210, 30, 22);
+context.strokeRect(560, -210, 30, 22);
 
 //lanjutan text
 var x = myCanvas.width / 2;
