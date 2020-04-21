@@ -47,18 +47,13 @@ context.strokeRect(630, 340, 160, 41);
 context.fillStyle = "salmon";
 context.fillRect(630, 382, 160, 200);
 
-//gelas 3 linda readyy
-//pegangan tutup gelas
-context.fillStyle = "salmon";
-context.fillRect(1100, 320, 30, 50);
-//tutup gelas
-context.fillStyle = "#FFB6C1";
-context.fillRect(1040, 340, 160, 50);
+//gelas 3 linda readyy dan berdha 
 //badan gelas
 context.fillStyle = "salmon";
 context.fillRect(1040, 390, 160, 200);
 
-//rotasi tutup gelas
+
+//rotasi tutup gelas2
 context.rotate((Math.PI / 180) * 40);
 //tutup gelas
 context.fillStyle = "#FFB6C1";
@@ -66,6 +61,16 @@ context.fillRect(689, -257, 160, 41);
 //pegangan
 context.fillStyle = "salmon";
 context.fillRect(755, -278, 30, 22);
+
+//rotate tutup gelas 3 berdha
+//pegangan tutup gelas
+context.fillStyle = "blue";
+context.fillRect(600,-300,30,20);
+//tutup gelas
+context.translate(300,-860);
+context.rotate ((Math.PI/180)*48);
+context.fillStyle = "lightblue";
+context.fillRect(541,150,160,50);
 
 //lanjutan text
 
