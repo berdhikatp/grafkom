@@ -4,7 +4,7 @@ myCanvas.width = innerWidth;
 myCanvas.height = innerHeight;
 
 
-//teks arum sipp
+//teks 
 context.font = 'bold 15pt comic';
 context.lineWidth = 3;
 context.fillStyle = 'black';
@@ -24,7 +24,7 @@ context.fillStyle = 'black';
 context.fillText('Gelas Terbuka', 1055, 650);
 
 
-//gelas 1 berdha
+//gelas 1 
 //pegangan tutup gelas
 context.fillStyle = "salmon";
 context.fillRect(285, 320, 30, 50);
@@ -35,8 +35,7 @@ context.fillRect(220, 340, 160, 50);
 context.fillStyle = "salmon";
 context.fillRect(220, 380, 160, 200);
 
-
-//gelas 2 martafairuss
+//gelas 2 
 //pegangan tutup gelas
 context.strokeStyle = "salmon";
 context.strokeRect(695, 320, 30, 20);
@@ -47,7 +46,7 @@ context.strokeRect(630, 340, 160, 41);
 context.fillStyle = "salmon";
 context.fillRect(630, 382, 160, 200);
 
-//gelas 3 linda readyy dan berdha 
+//gelas 3 
 //badan gelas
 context.fillStyle = "salmon";
 context.fillRect(1040, 390, 160, 200);
@@ -62,18 +61,19 @@ context.fillRect(689, -257, 160, 41);
 context.fillStyle = "salmon";
 context.fillRect(755, -278, 30, 22);
 
-//rotate tutup gelas 3 berdha
+//rotate tutup gelas 3 
 //pegangan tutup gelas
 context.fillStyle = "salmon";
-context.fillRect(1110, -551, 30, 20);
-//tutup gelas atur posisi arum
+context.fillRect(1010, -550, 30, 20);
+//tutup gelas
 context.translate(600, -860);
-context.rotate ((Math.PI / 180) * 48);
+context.rotate ((Math.PI / 180) * 50);
 context.fillStyle = "#FFB6C1";
-context.fillRect(509, -164, 160, 50);
+context.fillRect(503,-188, 160, 50);
+
+
 
 //lanjutan text
-
 var x = myCanvas.width / 2;
 var y = myCanvas.height / 2;
 
