@@ -66,7 +66,7 @@ context.fillRect(755, -278, 30, 22);
 //pegangan tutup gelas
 context.fillStyle = "salmon";
 context.fillRect(1110, -551, 30, 20);
-//tutup gelas
+//tutup gelas atur posisi arum
 context.translate(600, -860);
 context.rotate ((Math.PI / 180) * 48);
 context.fillStyle = "#FFB6C1";
