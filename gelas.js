@@ -16,16 +16,15 @@ context.fillRect(220,380,160,200);
 
 
 //gelas 2 martafairuss
+//badan gelas
+context.fillStyle = "blue";
+context.fillRect(630,382,160,200);
 //pegangan tutup gelas
 context.strokeStyle = "blue";
 context.strokeRect(695,320,30,20);
 //tutup gelas
 context.strokeStyle = "black";
 context.strokeRect(630,340,160,41);
-//badan gelas
-context.fillStyle = "blue";
-context.fillRect(630,382,160,200);
-
 //rotasi tutup gelas
 context.rotate ((Math.PI/180)*40);
 //tutup gelas
@@ -35,7 +34,9 @@ context.fillRect(689,-257,160,41);
 context.fillStyle = "blue";
 context.fillRect(755,-278,30,22);
 
-//gelas 3 linda readyyyyy
+
+
+//gelas 3 linda readyy
 //pegangan tutup gelas
 context.fillStyle = "blue";
 context.fillRect(565,180,30,50);
@@ -45,3 +46,5 @@ context.fillRect(500,200,160,50);
 //badan gelas
 context.fillStyle = "blue";
 context.fillRect(500,240,160,200);
+
+
