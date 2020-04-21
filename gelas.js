@@ -106,9 +106,3 @@ context.strokeRect(560, -210, 30, 22);
 //lanjutan text
 var x = myCanvas.width / 2;
 var y = myCanvas.height / 2;
-
-
-
-
-
-
