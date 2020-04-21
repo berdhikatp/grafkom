@@ -62,15 +62,16 @@ context.fillStyle = "salmon";
 context.fillRect(755, -278, 30, 22);
 
 //rotate tutup gelas 3 
-//pegangan tutup gelas
-context.fillStyle = "salmon";
-context.fillRect(1010, -550, 30, 20);
 //tutup gelas
 context.translate(600, -860);
-context.rotate ((Math.PI / 180) * 50);
-context.fillStyle = "#FFB6C1";
-context.fillRect(503,-188, 160, 50);
+context.rotate((Math.PI / 180) * 50);
 
+context.fillStyle = "#FFB6C1";
+context.fillRect(503, -188, 160, 50);
+
+//pegangan tutup gelas
+context.fillStyle = "salmon";
+context.fillRect(555, -210, 30, 22);
 
 
 //lanjutan text
